@@ -1,0 +1,85 @@
+.api_100 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.api_50 {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 250px;
+}
+.name {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+}
+.name_font {
+    width: 65%;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div_loading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.loading_img {
+    width: 7%;
+}
+.pages_div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+}
+.pages_div_50 {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.pages_button {
+    width: 40%;
+    height: 40px;
+}
+.Link_div a{
+    text-decoration: none;
+}
+.img_name_div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    box-shadow: rgb(182, 181, 181) 0 5px 10px;
+    border-radius: 10px;
+}
+.img_radius {
+    border-radius: 10px 10px 0 0;
+}
+
+
+.closeButton {
+    width: 1.5%;
+    height: 19px;
+    position: relative;
+    left: 100px;
+    top: -15px;
+    background-color: whitesmoke;
+    color: black;
+    border: 0;
+}
+.modal {
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
